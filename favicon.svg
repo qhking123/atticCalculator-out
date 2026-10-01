@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#c2410c"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Amber/orange rounded square background (site accent colors) -->
+  <rect width="128" height="128" rx="28" fill="url(#bg)"/>
+
+  <!-- House roof (attic) -->
+  <path d="M64 24 L 24 64 L 104 64 Z" fill="#ffffff"/>
+
+  <!-- Attic insulation zigzag inside roof -->
+  <path d="M36 60 L 44 52 L 52 60 L 60 52 L 68 60 L 76 52 L 84 60 L 92 52"
+        stroke="#c2410c" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- House body -->
+  <rect x="36" y="64" width="56" height="40" rx="2" fill="#ffffff"/>
+
+  <!-- Door -->
+  <rect x="56" y="80" width="16" height="24" rx="1" fill="#c2410c"/>
+
+  <!-- Small window -->
+  <rect x="42" y="72" width="10" height="10" fill="#fbbf24"/>
+  <rect x="76" y="72" width="10" height="10" fill="#fbbf24"/>
+</svg>
